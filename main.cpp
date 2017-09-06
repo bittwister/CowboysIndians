@@ -97,6 +97,7 @@ int main()
 		}
 	}
 
+	// Display the outcome
 	if (cowCombatants > 0){
 		cout << "\n Cowboys win!\n Unfortunately " << cowStartCombatants - cowCombatants << " were killed.";
 	} else {
